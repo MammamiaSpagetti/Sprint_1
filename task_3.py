@@ -8,7 +8,8 @@ world_champions = {
 
 world_champions[2022] = 'Аргентина'
 
-print(world_champions)
+for year, country in world_champions.items():
+    print(year, '-', country)
 
 country = 'Италия'
 
